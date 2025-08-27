@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class CalculadoraCLI {
 
     public static int somar(int num1, int num2){
@@ -23,7 +21,6 @@ public class CalculadoraCLI {
     }
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
 
         String oper = args[1];
         int num1 = Integer.parseInt(args[0]);
